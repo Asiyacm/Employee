@@ -98,6 +98,10 @@ public class Main {
                     case 5 :
                         System.out.println("Enter exit");
                         break;
+                    default:
+                        System.out.println("Invalid choice");
+                        break;
+
                 }
             }
         }
