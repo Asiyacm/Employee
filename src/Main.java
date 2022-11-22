@@ -92,14 +92,17 @@ public class Main {
                         for (Employee e1 : earr){
                             if (ecode2 == e1.code){
                                 earr.remove(e1);
+                                System.out.println("Employee removed is:");
+                                System.out.println(e1.code);
+                                System.out.println(e1.name);
+                                System.out.println(e1.designation);
+                                System.out.println(e1.salary);
+                                System.out.println(e1.companyName);
+                                System.out.println(e1.phnNo);
+                                System.out.println(e1.emailId);
+                                break;
                             }
                         }
-                        break;
-                    case 5 :
-                        System.out.println("Enter exit");
-                        break;
-                    default:
-                        System.out.println("Invalid choice");
                         break;
 
                 }
